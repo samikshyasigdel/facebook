@@ -1,0 +1,101 @@
+/* Below 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .hero {
+    max-width: 120rem;
+  }
+  .forgot {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 68em) {
+  .foooter {
+    max-width: 96rem;
+  }
+
+  .language {
+    font-size: 1.8rem;
+  }
+  .other {
+    font-size: 1.8rem;
+  }
+  .meta {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .other {
+    /* max-width: 90rem; */
+    line-height: 1rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .footer {
+    max-width: 80rem;
+  }
+  .other {
+    line-height: 1.6rem;
+  }
+
+  .language {
+    font-size: 1.6rem;
+  }
+
+  .meta {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .language {
+    font-size: 1.4rem;
+  }
+  .other {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .hero {
+    max-width: 96rem;
+  }
+  .footer {
+    max-width: 80rem;
+    font-size: 1.2rem;
+  }
+  .btn-add {
+    width: 0.3rem;
+    height: 0.5rem;
+  }
+  .language-list {
+    gap: 1rem;
+  }
+  .list-other {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 38rem) {
+  .cta-form input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .language-list {
+    font-size: 1.2rem;
+  }
+  .other {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 34em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
